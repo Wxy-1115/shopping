@@ -1,0 +1,257 @@
+.main {
+  width: 980px;
+  height: 455px;
+  margin-left: 220px;
+  margin-top: 10px;
+  /* background-color: pink; */
+}
+
+.focus {
+  float: left;
+  width: 721px;
+  height: 100%;
+  background-color: red;
+}
+.newsflash{
+  float: right;
+  width: 250px;
+  height: 100%;
+}
+
+.news {
+  height: 165px;
+  border: 1px solid #ccc;
+}
+.news_header {
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px dotted #ccc;
+  padding: 0 10px;
+}
+
+.header_left {
+  font-size: 16px;
+}
+.header_right {
+  float: right;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.header_right::after {
+  position: relative;
+  left: 5px;
+  top: 2px;
+  content: url(../images/arrow-right.png);
+}
+.news_content{
+  padding-top: 5px;
+  padding-left:20px;
+}
+.news_content ul li{
+  height: 25px;
+  line-height: 25px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.lifeservice {
+  height: 209px;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: #ccc;
+  overflow: hidden;
+}
+.lifeservice ul{
+  width: 252px;
+}
+.lifeservice ul li{
+  float: left;
+  height: 71px;
+  width: 63px;
+  text-align: center;
+  border-width: 0 1px 1px 0;
+  border-style: solid;
+  border-color: #ccc;
+}
+.lifeservice ul li i {
+  display: block;
+  margin: 10px auto;
+  background: url('../images/icons.png') no-repeat;
+  width: 24px;
+  height: 24px;
+}
+.lifeservice ul li:nth-child(1) i{
+  background-position: -17px -16px;
+}
+.lifeservice ul li:nth-child(2) i {
+  background-position: -78px -16px;
+}
+
+.lifeservice ul li:nth-child(3) i {
+  background-position: -141px -16px;
+}
+
+.lifeservice ul li:nth-child(4) i {
+  background-position: -206px -16px;
+}
+
+.lifeservice ul li:nth-child(5) i {
+  background-position: -17px -88px;
+}
+
+.lifeservice ul li:nth-child(6) i {
+  background-position: -78px -88px;
+}
+
+.lifeservice ul li:nth-child(7) i {
+  background-position: -141px -88px;
+}
+
+.lifeservice ul li:nth-child(8) i {
+  background-position: -206px -88px;
+}
+.lifeservice ul li:nth-child(9) i {
+  background-position: -17px -159px;
+}
+
+.lifeservice ul li:nth-child(10) i {
+  background-position: -78px -159px;
+}
+
+.lifeservice ul li:nth-child(11) i {
+  background-position: -141px -159px;
+}
+
+.lifeservice ul li:nth-child(12) i {
+  background-position: -206px -159px;
+}
+.bargain{
+  margin-top: 5px;
+}
+
+.recom {
+  height: 163px;
+  margin-top: 12px;
+  background-color: #ebebeb;
+}
+.recom_hd {
+  float: left;
+  height: 100%;
+  width: 205px;
+  background-color: #5c5251;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.recom_bd {
+  float: left;
+}
+.recom_bd ul li {
+  position: relative;
+  float: left;
+}
+.recom_bd ul li img {
+  width: 248px;
+  height: 163px;
+}
+.recom_bd ul li:nth-child(-n+3)::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 1px;
+  height: 145px;
+  background-color: #ddd;
+}
+
+.love {
+  margin-top: 30px;
+  width: 1200px;
+  height: 260px;
+}
+.love_text{
+  margin-bottom: 5px;
+}
+.love_lf{
+  font-size: 18px;
+}
+.love_rt{
+  float: right;
+}
+.love_rt::after {
+  content: url(../images/update.svg);
+  margin-left: 5px;
+}
+.love_list{
+  width: 100%;
+  height: 234px;
+  border: 1px solid #dce1eb;
+}
+
+.love_list ul li{
+  float: left;
+}
+
+.box_hd{
+  margin-top: 30px;
+
+  height: 30px;
+  border-bottom: 2px solid #c81623;
+}
+.box_hd h3 {
+  float: left;
+  font-size: 18px;
+  color: #c81623;
+}
+.tab_list{
+  float: right;
+  line-height: 30px;
+}
+.tab_list ul li{
+  float: left;
+}
+.tab_list ul li a{
+  margin: 0 10px;
+}
+.box_bd {
+  height: 365px;
+}
+.tab_list_item>div{
+  float: left;
+}
+.col_210 {
+  width: 210px;
+  background-color: #f6f9f6;
+  text-align: center;
+}
+.col_210 ul{
+  margin-left: 12px;
+}
+.col_210 ul li{
+  float: left;
+  width: 85px;
+  height: 34px;
+  line-height: 34px;
+  margin-right: 10px;
+  border-bottom: 2px solid #d3d6d3;
+}
+.col_210 img{
+  margin-top: 30px;
+}
+.col_329 {
+  width: 329px;
+}
+
+.col_221 {
+  width: 221px;
+  border-right: 1px solid #ccc;
+}
+
+.col_219 {
+  width: 219px;
+}
+.bb{
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
